@@ -6,10 +6,11 @@ from datetime import datetime
 from tkinter import messagebox
 import os
 
-USERNAME = "aliriax"
+# chnage here
+USERNAME = "yourusername"
+GRAPH_ID = "yougraphid"
 MY_SECRET_TOKEN = os.environ['MY_SECRET_TOKEN']
 GRAPH_NAME = "Python Working Hours"
-GRAPH_ID = "python"
 PIXELA_END_POINT = "https://pixe.la/v1/users"
 GRAPHS_ENDPOINT = f"{PIXELA_END_POINT}/{USERNAME}/graphs"
 URL = f"{GRAPHS_ENDPOINT}/{GRAPH_ID}.html"
