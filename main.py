@@ -190,8 +190,8 @@ def delete_pixel():
                             message=f"No Pixel exists for {cal.get_date()}\nPlease add the pixel first on {cal.get_date()}")
 
 #################### RUN ONLY ONCE TO CREATE USER AND GRAPH ################
-# create_pixel_user()
-# create_graph()
+create_pixel_user()
+create_graph()
 
 ###################### GUI ############################
 window = Tk()
